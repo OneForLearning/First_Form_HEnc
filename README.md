@@ -1,4 +1,4 @@
-# PaillierCT — Paillier Encryption Scheme in Rust
+# Homomorphic Encryption based on Paillier Encryption Scheme in Rust
 
 > A from-scratch implementation of the Paillier cryptosystem in Rust, featuring arbitrary-precision integers, constant-time execution, and a modular library-oriented design.
 
