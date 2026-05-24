@@ -1,0 +1,27 @@
+[package]
+name = "paillier_r"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crypto-bigint = "0.5"
+crypto-primes = "0.5"
+rand_core     = "0.6"
+rand          = "0.8"
+zeroize       = "1.8"
+
+#zeroize = { version = "1.8", features = ["zeroize_derive"] }
+#thiserror = "1.0"
+#subtle = "2.6"
+#serde = { version = "1.0", features = ["derive"], optional = true }
+#bytes = { version = "1.5", optional = true }
+
+#crypto-primes = "^0.5"
+#crypto-bigint = "^0.5"
+#rand_core     = "^0.6"
+#rand          = "^0.8"
+#zeroize       = "^1.8"
+
+#[d!ev-dependencies]
+#criterion = "0.5"
+#proptest = "1.4"
